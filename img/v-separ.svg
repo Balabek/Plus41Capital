@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1px" height="352px" viewBox="0 0 1 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>v-separ</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#999999" stop-opacity="0.0550717441" offset="0%"></stop>
+            <stop stop-color="#999999" offset="51.8669075%"></stop>
+            <stop stop-color="#999999" stop-opacity="0.0562667313" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Homepage-Final" transform="translate(-434.000000, -931.000000)" stroke="url(#linearGradient-1)">
+            <g id="COMPANY" transform="translate(0.000000, 715.000000)">
+                <g id="content" transform="translate(195.000000, 216.000000)">
+                    <line x1="239.5" y1="0.5" x2="239.5" y2="351.5" id="v-separ"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
