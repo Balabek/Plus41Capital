@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="33px" viewBox="0 0 231 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>direction</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Final" transform="translate(-104.000000, -6186.000000)" fill="#003850">
+            <g id="CLIENT-SETUP" transform="translate(0.000000, 5860.000000)">
+                <g id="st--1" transform="translate(104.000000, 233.000000)">
+                    <g id="direction" transform="translate(0.000000, 93.000000)">
+                        <polygon id="Triangle" transform="translate(116.000000, 25.222222) scale(1, -1) translate(-116.000000, -25.222222) " points="116 18 129 32.4444444 103 32.4444444"></polygon>
+                        <rect id="Rectangle" x="0" y="0" width="231" height="20" rx="10"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

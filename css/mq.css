@@ -1,3 +1,329 @@
 /*
 𝕄𝕖𝕕𝕚𝕒 ℚ𝕦𝕖𝕣𝕚𝕖𝕤
 */
+
+/* ------------ */
+/* --------- !!! IMPORTANT !!! --------- */
+/* ------------ */
+@media screen and (max-width: 767px){
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: #ffffff;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        padding-top: 12px;
+        padding-bottom: 20px;
+        padding-left: 24px;
+    }
+
+    li.nav-item > a:after {
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    .dropdown-menu > a.dropdown-item {
+        text-align: center;
+    }
+
+    span.v_separ {display: none;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Navigation --------- */
+/* ------------ */
+@media screen and (max-width: 991px){
+    li.nav-item a {font-size: 1rem;}
+}
+
+@media screen and (max-width: 767px){
+    li.nav-item a {font-size: 1.143rem;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Header --------- */
+/* ------------ */
+@media screen and (max-width: 540px){
+    img.main_logo {height: 320px;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Company --------- */
+/* ------------ */
+@media screen and (max-width: 1199px){
+    article.bodytext {width: 92%;}
+}
+
+@media screen and (max-width: 991px){
+    .lonelyrobot {width: 200px; right: 89px;}
+}
+
+@media screen and (max-width: 767px){
+    .lonelyrobot {width: 124px; left: -113px;}
+    span.robot_separ_vertical {left: 6vw;}
+}
+
+@media screen and (max-width: 575px){
+    .lonelyrobot {left: 0; text-align: center; top: -22px; width: 100%; margin: 0 auto; display: inline-block;}
+    span.robot_separ_vertical {display: none;}
+    .company_textual_data_holder {padding-left: 0;}
+}
+
+@media screen and (max-width: 499px){
+    .company_details_holder {width: 90%;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Philosophy --------- */
+/* ------------ */
+@media screen and (max-width: 767px){
+    .circle_box_outmost {margin-bottom: 55px;}
+    .circle_box_outmost:last-child {margin-bottom: 0;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Strategies --------- */
+/* ------------ */
+@media screen and (max-width: 1199px){
+    .shield {width: 200px; left: -70px;}
+}
+
+@media screen and (max-width: 991px){
+    .shield_and_content_area {width: 100%;}
+}
+
+@media screen and (max-width: 840px){
+    .shield {width: 145px; left: 0;}
+}
+
+@media screen and (max-width: 767px){
+    .shield_and_content_area {padding-top: 24px;}
+    .shield {width: 175px; margin: 0 auto;}
+}
+
+@media screen and (max-width: 460px){
+    .strategies_text_holder {padding-left: 10px;}
+}
+
+@media screen and (max-width: 426px){
+    ul.strategic_list li {font-size: 1.2rem;}
+}
+
+@media screen and (max-width: 378px){
+    ul.strategic_list li {font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 352px){
+    ul.strategic_list li {text-indent: -38px;}
+    ul.strategic_list {padding-left: 38px;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Portfolios --------- */
+/* ------------ */
+@media screen and (max-width: 1399px){
+    .central_chart {height: 335px;}
+    .portfolios_area {min-height: 850px;}
+}
+
+@media screen and (max-width: 1199px){
+    .central_chart {height: 300px;}
+    .chart_text_one_left h3, .chart_text_two_left h3 {font-size: 1.3rem;}
+    .chart_text_one_right h3, .chart_text_two_right h3 {font-size: 1.3rem;}
+}
+
+@media screen and (max-width: 991px){
+    .central_chart_and_content_area_desktop_version {display: none;}
+    .central_chart_and_content_area_mobile_version {display: block; padding-top: 32px;}
+    .w-45 {width: 88% !important;}
+}
+
+@media screen and (max-width: 560px){
+    .central_chart_and_content_area_mobile_version {width: 98%;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Consulting --------- */
+/* ------------ */
+@media screen and (max-width: 1199px){
+    .consulting_visuals_holder {width: 96%;}
+}
+
+@media screen and (max-width: 991px){
+    .consulting_visuals_holder {width: 100%;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Team --------- */
+/* ------------ */
+@media screen and (max-width: 1199px){
+    .blurry {left: -44px;}
+    img.robot_out_of_blue {width: 420px; left: -22px; top: 34px;}
+}
+
+@media screen and (max-width: 991px) {
+    ul.team_list {padding-right: 0;}
+    .blurry {left: -146px;}
+    img.robot_out_of_blue {width: 420px; left: -146px; top: 34px;}
+}
+
+@media screen and (max-width: 767px){
+    .lonley_robot_holder {width: 100%; text-align: center;}
+    .team_details_holder {padding-top: 5px;}
+    img.robot_out_of_blue {left: 0; top: 0; width: 100%;}
+    .blurry {left: 0;}
+    .team_text_details_holder {z-index: 22;}
+}
+
+@media screen and (max-width: 460px){
+    .blurry {left: -60px;}
+}
+
+@media screen and (max-width: 400px){
+    .team_text_details_holder {top: -30px;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Client Setup --------- */
+/* ------------ */
+@media screen and (max-width: 1199px){
+    .setup_box {margin-bottom: 65px;}
+    .setup_box p {padding-left: 40px;}
+}
+
+@media screen and (max-width: 767px){
+    .client_setup_area {text-align: center;}
+    .setup_box {margin-bottom: 70px;}
+}
+
+
+
+
+
+/* ------------ */
+/* --------- Contact --------- */
+/* ------------ */
+@media screen and (max-width: 1199px){
+    .address_holder {width: 23%;}
+    span.micro_separ_vertical {left: -3px;}
+    .contact_links_holder {padding-left: 23px;}
+}
+
+@media screen and (max-width: 991px){
+    .address_and_links_holder {left: 70px;}
+    .address_holder {width: 30%;}
+
+    span.micro_separ_vertical {
+        position: absolute;
+        z-index: 2;
+        left: -145px;
+        right: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    span.micro_separ_vertical {left: -35px;}
+    .address_holder {width: 40%;}
+    .address_and_links_holder {left: 20px;}
+    .custom_map {margin-bottom: 20px;}
+}
+
+@media screen and (max-width: 580px){
+    .custom_map {height: 580px;}
+}
+
+@media screen and (max-width: 575px){
+    .map_and_form_holder {padding-top: 50px;}
+}
+
+@media screen and (max-width: 490px){
+    .address_and_links_holder {left: 0;}
+    .address_holder {padding-left: 0;}
+    span.micro_separ_vertical {left: -50px;}
+}
+
+@media screen and (max-width: 450px){
+    .custom_map {height: 500px;}
+}
+
+@media screen and (max-width: 418px){
+    span.micro_separ_vertical {display: none;}
+    .address_and_links_holder {display: block; padding-top: 32px;}
+    .address_holder {margin: 0 auto;}
+    .contact_links_holder {padding-left: 0; display: table; margin: 0 auto; position: relative; top: 18px;}
+}
+
+@media screen and (max-width: 400px){
+    .custom_map {height: 430px;}
+}
+
+@media screen and (max-width: 360px){
+    .custom_map {height: 390px;}
+}
+
+
+
+
+/* ------------ */
+/* --------- Footer --------- */
+/* ------------ */
+@media screen and (max-width: 620px){
+    .trees {background-size: cover;}
+    img.footerlogo {height: 100px;}
+    .footer_bottom_notes_holder {padding-top: 45px;}
+    .footer_bottom_notes_holder small {font-size: 0.9rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="569px" height="898px" viewBox="0 0 569 898" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <defs>
+        <filter x="-28.2%" y="-23.3%" width="156.4%" height="146.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Final" transform="translate(0.000000, -5105.000000)" fill="#FFFFFF">
+            <g id="TEAM" transform="translate(-69.000000, 5194.000000)">
+                <g id="Group-2" transform="translate(0.000000, 38.000000)">
+                    <path d="M0,0 L483,0 L482.667343,346 C451.889114,350.375637 430.833333,382.542303 419.5,442.5 C413.555396,473.949246 470.277584,474.914693 494.322724,493.64558 C508.853854,504.965164 521.238111,500.260581 531.475495,479.53183 L483,644 L0,644 L0,0 Z" id="Rectangle" filter="url(#filter-1)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
