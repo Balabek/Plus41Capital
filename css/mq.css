@@ -83,6 +83,7 @@
     .lonelyrobot {left: 0; text-align: center; top: -22px; width: 100%; margin: 0 auto; display: inline-block;}
     span.robot_separ_vertical {display: none;}
     .company_textual_data_holder {padding-left: 0;}
+    .company_details_holder {width: 95%;}
 }
 
 @media screen and (max-width: 499px){
