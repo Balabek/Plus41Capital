@@ -225,7 +225,7 @@
 }
 
 @media screen and (max-width: 460px){
-    .blurry {left: -60px;}
+    .blurry {left: -100px;}
 }
 
 @media screen and (max-width: 400px){
@@ -327,6 +327,12 @@
     img.footerlogo {height: 100px;}
     .footer_bottom_notes_holder {padding-top: 45px;}
     .footer_bottom_notes_holder small {font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 640px){
+    footer.pluscapital_footer {
+        clip-path: ellipse(150% 100% at 49% 100%);
+    }
 }
 
 
