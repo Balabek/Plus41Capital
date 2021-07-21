@@ -279,7 +279,7 @@
 
 @media screen and (max-width: 767px){
     span.micro_separ_vertical {left: -35px;}
-    .address_holder {width: 40%;}
+    .address_holder {width: 46%;}
     .address_and_links_holder {left: 20px;}
     .custom_map {margin-bottom: 20px;}
 }
@@ -315,6 +315,7 @@
 
 @media screen and (max-width: 360px){
     .custom_map {height: 390px;}
+    .address_holder {width: 55%;}
 }
 
 
