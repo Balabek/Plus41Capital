@@ -296,13 +296,14 @@ span.robot_separ_vertical {
 
 .company_textual_data_holder {
     padding-left: 55px;
-    padding-top: 24px;
+    padding-top: 1px;
 }
 
 h4.company_data_txt {
     font-size: 1.25rem;
     color: #999999;
     text-align: left;
+    margin-bottom: 12px;
 }
 
 .phone_and_email_holder {
@@ -355,7 +356,7 @@ a.infodatalink {
 }
 
 .contact_btn_holder {
-    padding-top: 32px;
+    padding-top: 28px;
 }
 
 button.main_cta_btn {

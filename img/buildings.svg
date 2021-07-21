@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="147px" viewBox="0 0 174 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Asset 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Asset-1" fill="#003850" fill-rule="nonzero">
+            <path d="M65,145.84 L14,145.84 L14,37 L65,37 L65,145.84 Z M18,141.84 L61,141.84 L61,41 L18,41 L18,141.84 Z" id="Shape"></path>
+            <path d="M112,145.84 L61,145.84 L61,0 L112,0 L112,145.84 Z M65,141.84 L108,141.84 L108,4 L65,4 L65,141.84 Z" id="Shape"></path>
+            <path d="M159,146.34 L108,146.34 L108,83 L159,83 L159,146.34 Z M112,142.34 L155,142.34 L155,87 L112,87 L112,142.34 Z" id="Shape"></path>
+            <rect id="Rectangle" x="0" y="142.34" width="174" height="4"></rect>
+            <rect id="Rectangle" x="75.9" y="14.2" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.9" y="28.22" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.9" y="42.09" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.9" y="56.65" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.9" y="70.49" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.4" y="14.2" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.4" y="28.22" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.4" y="42.09" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.4" y="56.65" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.4" y="70.49" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="122.45" y="97.57" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="122.45" y="111.58" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="122.45" y="125.46" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="137.95" y="97.32" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="137.95" y="111.33" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="137.95" y="125.2" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.95" y="70.56" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.95" y="84.57" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.95" y="98.44" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.95" y="113" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="75.95" y="126.84" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.45" y="70.3" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.45" y="84.31" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.45" y="98.19" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.45" y="112.74" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="91.45" y="126.58" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="28.45" y="56.3" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="28.45" y="70.31" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="28.45" y="84.19" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="28.45" y="98.74" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="28.45" y="112.58" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="43.95" y="56.04" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="43.95" y="70.06" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="43.95" y="83.93" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="43.95" y="98.49" width="6.6" height="6.6"></rect>
+            <rect id="Rectangle" x="43.95" y="112.33" width="6.6" height="6.6"></rect>
+        </g>
+    </g>
+</svg>
