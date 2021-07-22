@@ -84,6 +84,7 @@
     span.robot_separ_vertical {display: none;}
     .company_textual_data_holder {padding-left: 0;}
     .company_details_holder {width: 95%;}
+    article.bodytext p {text-align: left !important;}
 }
 
 @media screen and (max-width: 499px){
