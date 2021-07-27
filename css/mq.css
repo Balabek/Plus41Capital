@@ -195,6 +195,25 @@
     .consulting_visuals_holder {width: 100%;}
 }
 
+@media screen and (max-width: 430px){
+    h2.section_title {font-size: 2.1rem;}
+}
+
+@media screen and (max-width: 400px){
+    h2.section_title {font-size: 2rem;}
+}
+
+@media screen and (max-width: 380px){
+    h2.section_title {font-size: 1.8rem;}
+}
+
+@media screen and (max-width: 345px){
+    h2.section_title {font-size: 1.7rem;}
+}
+
+@media screen and (max-width: 325px){
+    h2.section_title {font-size: 1.6rem;}
+}
 
 
 
