@@ -711,6 +711,10 @@ span.s_bullet {
     text-align: center;
 }
 
+.prominent_text p {
+    text-align: left;
+}
+
 
 
 
