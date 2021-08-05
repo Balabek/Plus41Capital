@@ -318,6 +318,10 @@
     span.micro_separ_vertical {left: -50px;}
 }
 
+@media screen and (max-width: 448px){
+    .contact_links_holder {padding-left: 6px;}
+}
+
 @media screen and (max-width: 450px){
     .custom_map {height: 500px;}
 }
