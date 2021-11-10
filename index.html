@@ -31,7 +31,49 @@
     <link href="css/mq.css" rel="stylesheet">
 
 </head>
+
 <body>
+
+<!-- Modals -->
+<div class="modal fade" id="huberCV" tabindex="-1" aria-labelledby="huberCVLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title boldify" id="huberCVLabel">Lukas Huber</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <hr class="modal_separ">
+            <div class="modal-body pluscapital_modal_text">
+                <p>
+                    Lukas combines 15 years practical investment experience with profound knowledge of financial markets, asset classes, and instruments.
+                    His focus is on advising wealthy entrepreneurs and family offices on institutional asset management solutions and professional banking infrastructure.
+                    <span class="boldify">In this role he held positions at Credit Suisse UHNW, UBS UHNW, and LGT.</span>
+                    Lukas graduated from the Mathematic - Scientific Gymnasium in Zurich and holds a master’s degree in law from the University of Zurich.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="zieglerCV" tabindex="-1" aria-labelledby="zieglerCVLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title boldify" id="zieglerCVLabel">Dr. Alexandre Ziegler</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <hr class="modal_separ">
+            <div class="modal-body pluscapital_modal_text">
+                <p>
+                    Alex combines 20 years of academic research in finance with practical portfolio management experience.
+                    <span class="boldify">He has been the director of the Center for Portfolio Management at the University of Zurich since 2015.</span> His courses at the University of Zurich include asset pricing, portfolio management, and risk management.
+                    In addition, he has 10 years practical experience in the implementation of systematic investment strategies.
+                    Alex graduated from Collège Calvin (Latin, Greek, Mathematic-Scientific) in Geneva and holds an MBA from Stanford University and a Ph.D. in Finance from the University of St. Gallen.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="home" class="outermost_wrapper">
 
@@ -49,29 +91,29 @@
             <div class="collapse navbar-collapse justify-content-center" id="pluscapitalNavCollapse">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active text-center">
-                        <a class=" anchor nav-link" href="#company">Company<span class="sr-only">(current)</span></a>
+                        <a class=" smoothScroll nav-link" href="#company">Company<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class=" anchor nav-link" href="#philosophy">Philosophy</a>
+                        <a class=" smoothScroll nav-link" href="#philosophy">Philosophy</a>
                     </li>
                     <li class="nav-item dropdown text-center">
                         <a class="nav-link" href="#" id="pluscapitalMenuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Offerings
                         </a>
                         <div class="dropdown-menu" aria-labelledby="pluscapitalMenuDropdown">
-                            <a class="dropdown-item" href="#strategies">Defensive Core Equity Strategies</a>
-                            <a class="dropdown-item" href="#portfolios">Self-Directed Portfolios</a>
-                            <a class="dropdown-item" href="#consulting">Consulting Services</a>
+                            <a class="smoothScroll dropdown-item" href="#strategies">Defensive Core Equity Strategies</a>
+                            <a class="smoothScroll dropdown-item" href="#portfolios">Self-Directed Portfolios</a>
+                            <a class="smoothScroll dropdown-item" href="#consulting">Consulting Services</a>
                         </div>
                     </li>
                     <li class="nav-item text-center">
-                        <a class=" anchor nav-link" href="#team">Team</a>
+                        <a class="smoothScroll nav-link" href="#team">Team</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class=" anchor nav-link" href="#clientSetup">Client Setup</a>
+                        <a class="smoothScroll nav-link" href="#clientSetup">Client Setup</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class=" anchor nav-link" href="#contact">Contact</a>
+                        <a class="smoothScroll nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item text-center lang_item">
                         <a class="lang active" href="javascript:void(0)">En</a>
@@ -113,11 +155,14 @@
                 </div>
                 <div class="col-md-9 col-sm-11 company_textual_data_holder">
                     <div class="company_data_txt">
-                        <h4>Swiss commercial registry: CHE-150.297.280</h4>
+                        <h4>Swiss <a href="https://www.zefix.ch/en/search/entity/welcome">commercial registry</a> number: CHE-150.297.280</h4>
                     </div>
                     <div class="company_data_txt">
-                        <h4>Swiss Financial Services Standards Association (VQF):</h4>
-                        <h4>Member no. 100851</h4>
+                        <h4>
+                            Supervised by the <br>
+                            <a href="https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/">Swiss Financial Market Supervisory Authority FINMA</a>
+                        </h4>
+                        <h4>and <a href="https://www.fincontrol.ch/en">FINControl Suisse Ltd.</a></h4>
                     </div>
                     <div class="company_data_txt">
                         <h4>Plus 41 Capital Ltd.</h4>
@@ -352,15 +397,23 @@
 
     <div id="team" class="team_area">
         <div class="container">
-            <div class="row">
-                <h2 class="section_title text-center">Senior Investment Team</h2>
-            </div>
             <div class="row team_details_holder">
-                <div class="col-md-5 col-sm-2 lonley_robot_holder">
-                    <div class="blurry"></div>
-                    <img src="img/robot_and_tree.svg" class="robot_out_of_blue" alt="Robot watering a tree">
+                <div class="col-md-5 team_members_holder">
+                    <div class="team_member">
+                        <div class="team_member_pic" style="background: url('img/Huber.png') no-repeat; background-size: contain;"></div>
+                        <h3 class="team_member_name">Lukas Huber</h3>
+                        <h3 class="team_member_position">Managing Director</h3>
+                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#huberCV" class="cv_link">CV</a>
+                    </div>
+                    <div class="team_member">
+                        <div class="team_member_pic" style="background: url('img/Ziegler.png') no-repeat; background-size: contain;"></div>
+                        <h3 class="team_member_name">Dr. Alexandre Ziegler</h3>
+                        <h3 class="team_member_position">Managing Director</h3>
+                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#zieglerCV" class="cv_link">CV</a>
+                    </div>
                 </div>
                 <div class="col-md-7 col-sm-10 team_text_details_holder">
+                    <h2 class="section_title leftaligned">Experienced Team</h2>
                     <h4>Our investment team uniquely combines:</h4>
                     <ul class="team_list">
                         <li><span class="s_bullet"></span>decades of academic research in finance</li>
@@ -519,6 +572,8 @@
 <!-- JSz -->
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+
 
 </body>
 
