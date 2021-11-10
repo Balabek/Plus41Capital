@@ -259,6 +259,7 @@
 @media screen and (max-width: 405px){
     .team_member {margin-right: 28px;}
     .team_member_name, .team_member_position {font-size: 1rem;}
+    .team_text_details_holder {padding-left: 28px;}
 }
 
 @media screen and (max-width: 400px){
@@ -266,7 +267,7 @@
 }
 
 @media screen and (max-width: 342px){
-    .team_members_holder {padding-left: 12%;}
+    .team_members_holder {padding-left: 8%;}
 }
 
 
