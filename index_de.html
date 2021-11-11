@@ -31,7 +31,49 @@
   <link href="css/mq.css" rel="stylesheet">
 
 </head>
+
 <body>
+
+<!-- Modals -->
+<div class="modal fade" id="huberCV" tabindex="-1" aria-labelledby="huberCVLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title boldify" id="huberCVLabel">Lukas Huber</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <hr class="modal_separ">
+      <div class="modal-body pluscapital_modal_text">
+        <p>
+          Lukas hat 15 Jahre praktische Anlageerfahrung und ein profundes Verständnis der Kapitalmärkte, Anlageklassen und Finanzinstrumente.
+          Er berät vermögende Unternehmer und Family Offices mit Fokus auf institutionelle Vermögensverwaltungslösungen und professionelle Bankinfrastruktur.
+          <span class="boldify">In dieser Funktion war er bei Credit Suisse UHN W, UBS UHN W und LG T tätig.</span> Lukas hat seine Matura am Mathematisch- Naturwissenschaftlichen Gymnasium in Zürich absolviert und hat einen Master of Law der Universität Zürich.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="zieglerCV" tabindex="-1" aria-labelledby="zieglerCVLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title boldify" id="zieglerCVLabel">Dr. Alexandre Ziegler</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <hr class="modal_separ">
+      <div class="modal-body pluscapital_modal_text">
+        <p>
+          Alex vereint 20 Jahre Finanzforschung mit praktischer Erfahrung in Portfoliomanagement. <span class="boldify">Seit 2015 leitet er das
+          Center for Portfoliomanagement an der Universität Zürich</span>, wo er unter anderem Vorlesungen zu Asset Pricing, Portfolio
+          Managment und Risk Management hält. Alex hat seine Matura am Collège Calvin (Latein, Griechisch, und Wissenschaft) in
+          Genf abgelegt, hat einen MBA an der Stanford Universität absolviert, und hält einen Doktortitel in Finance von der
+          Universität St. Gallen.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="home" class="outermost_wrapper">
 
@@ -49,29 +91,29 @@
       <div class="collapse navbar-collapse justify-content-center" id="pluscapitalNavCollapse">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active text-center">
-            <a class=" anchor nav-link" href="#company">Firma<span class="sr-only">(current)</span></a>
+            <a class="smoothScroll nav-link" href="#company">Firma<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item text-center">
-            <a class=" anchor nav-link" href="#philosophy">Philosophie</a>
+            <a class="smoothScroll nav-link" href="#philosophy">Philosophie</a>
           </li>
           <li class="nav-item dropdown text-center">
             <a class="nav-link" href="#" id="pluscapitalMenuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Angebot
             </a>
             <div class="dropdown-menu" aria-labelledby="pluscapitalMenuDropdown">
-              <a class="dropdown-item" href="#strategies">Defensive Aktienstrategien</a>
-              <a class="dropdown-item" href="#portfolios">Selbstgesteuerte Portfolios</a>
-              <a class="dropdown-item" href="#consulting">Beratungsdienstleistungen</a>
+              <a class="smoothScroll dropdown-item" href="#strategies">Defensive Aktienstrategien</a>
+              <a class="smoothScroll dropdown-item" href="#portfolios">Selbstgesteuerte Portfolios</a>
+              <a class="smoothScroll dropdown-item" href="#consulting">Beratungsdienstleistungen</a>
             </div>
           </li>
           <li class="nav-item text-center">
-            <a class=" anchor nav-link" href="#team">Team</a>
+            <a class="smoothScroll nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item text-center">
-            <a class=" anchor nav-link" href="#clientSetup">Transparente Kundenplattform</a>
+            <a class="smoothScroll nav-link" href="#clientSetup">Transparente Kundenplattform</a>
           </li>
           <li class="nav-item text-center">
-            <a class=" anchor nav-link" href="#contact">Kontakt</a>
+            <a class="smoothScroll nav-link" href="#contact">Kontakt</a>
           </li>
           <li class="nav-item text-center lang_item">
             <a class="lang" href="javascript:void(0)">En</a>
@@ -113,17 +155,20 @@
         </div>
         <div class="col-md-9 col-sm-11 company_textual_data_holder">
           <div class="company_data_txt">
-            <h4>Schweizer Handelsregister: CHE-150.297.280</h4>
+            <h4>Schweizer <a href="https://www.zefix.ch/de/search/entity/welcome">Handelsregister</a>: CHE-150.297.280</h4>
           </div>
           <div class="company_data_txt">
-            <h4>VQF – Verein zur Qualitätssicherung von Finanzdienstleistungen:</h4>
-            <h4>Mitglied Nummer 100851</h4>
+            <h4>
+              Beaufsichtigt von der<br>
+              <a href="https://www.finma.ch/de/finma-public/bewilligte-institute-personen-und-produkte/">Eidgenössischen Finanzmarktaufsicht FINMA</a>
+            </h4>
+            <h4>und <a href="https://www.fincontrol.ch">FINcontrol Suisse AG</a></h4>
           </div>
           <div class="company_data_txt">
-            <h4>Plus 41 Capital AG</h4>
+            <h4>Plus 41 Capital Ltd.</h4>
             <h4>Dreikönigstrasse 8</h4>
-            <h4>8002 Zürich</h4>
-            <h4>Schweiz</h4>
+            <h4>8002 Zurich</h4>
+            <h4>Switzerland</h4>
           </div>
           <div class="phone_and_email_holder">
             <div class="phone_holder">
@@ -136,7 +181,7 @@
             </div>
           </div>
           <div class="contact_btn_holder">
-            <a href="mailto:info@plus41capital.ch"><button class="main_cta_btn de_btn">Kontaktieren Sie uns</button></a>
+            <a href="mailto:info@plus41capital.ch"><button class="main_cta_btn">Contact Us</button></a>
           </div>
         </div>
       </div>
@@ -352,16 +397,24 @@
 
   <div id="team" class="team_area">
     <div class="container">
-      <div class="row">
-        <h2 class="section_title text-center">Senior Investment Team</h2>
-      </div>
       <div class="row team_details_holder">
-        <div class="col-md-5 col-sm-2 lonley_robot_holder">
-          <div class="blurry"></div>
-          <img src="img/robot_and_tree.svg" class="robot_out_of_blue" alt="Robot watering a tree">
+        <div class="col-md-5 team_members_holder">
+          <div class="team_member">
+            <div class="team_member_pic" style="background: url('img/Huber.png') no-repeat; background-size: contain;"></div>
+            <h3 class="team_member_name">Lukas Huber</h3>
+            <h3 class="team_member_position">Geschäftsführer</h3>
+            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#huberCV" class="cv_link">CV</a>
+          </div>
+          <div class="team_member">
+            <div class="team_member_pic" style="background: url('img/Ziegler.png') no-repeat; background-size: contain;"></div>
+            <h3 class="team_member_name">Dr. Alexandre Ziegler</h3>
+            <h3 class="team_member_position">Geschäftsführer</h3>
+            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#zieglerCV" class="cv_link">CV</a>
+          </div>
         </div>
         <div class="col-md-7 col-sm-10 team_text_details_holder">
-          <h4>Unser Investment Team zeichnet sich durch jahrzehntelange praktische Erfahrung in folgenden Bereichen aus:</h4>
+          <h2 class="section_title leftaligned">Erfahrenes Team</h2>
+          <h4>Unser Team zeichnet sich durch jahrzehntelange praktische Erfahrung in folgenden Bereichen aus:</h4>
           <ul class="team_list">
             <li><span class="s_bullet"></span>Finanzmarktforschung</li>
             <li><span class="s_bullet"></span>Portfolio Management</li>
@@ -372,7 +425,7 @@
           </ul>
           <div class="main_cta_holder">
             <small class="pre_cta_text">Möchten Sie das Team kennenlernen?</small>
-            <a href="mailto:info@plus41capital.ch"><button class="team_cta_btn de_btn">Kontaktieren Sie uns</button></a>
+            <a href="mailto:info@plus41capital.ch"><button class="team_cta_btn">Kontaktieren Sie Uns</button></a>
           </div>
         </div>
       </div>
@@ -518,6 +571,7 @@
 <!-- JSz -->
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
 
 </body>
 
