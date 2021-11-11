@@ -459,6 +459,11 @@ a.infodatalink {
     text-decoration: none;
     position: relative;
     top: -3px;
+    transition: all 0.4s ease-in-out;
+}
+
+a.infodatalink:hover {
+    color: #999999;
 }
 
 .contact_btn_holder {
