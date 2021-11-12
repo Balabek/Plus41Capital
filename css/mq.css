@@ -244,6 +244,8 @@
     .team_member:last-child {margin-right: 0;}
     .modal-dialog {max-width: 90%; margin: 0 auto; top: 12%;}
 
+    .team_area {padding-top: 90px;}
+
     .title_second {display: block;}
     .title_first {display: none;}
 
