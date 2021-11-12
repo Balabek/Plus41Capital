@@ -243,6 +243,16 @@
     .team_member {float: left; margin-right: 76px;}
     .team_member:last-child {margin-right: 0;}
     .modal-dialog {max-width: 90%; margin: 0 auto; top: 12%;}
+
+    .title_second {display: block;}
+    .title_first {display: none;}
+
+    h2.section_title.title_second.leftaligned {
+        top: 0;
+        margin-bottom: 40px;
+    }
+
+    .team_text_details_holder {top: -40px;}
 }
 
 @media screen and (max-width: 574px){

@@ -357,6 +357,7 @@ a.cv_link:hover {
     text-align: justify;
     font-size: 1.143rem;
     color: #003850;
+    word-break: break-all;
 }
 
 .modal-header {
@@ -982,6 +983,10 @@ button.team_cta_btn:hover {
     background: #721220;
     color: #eeeeee;
 }
+
+.title_first {display: block;}
+.title_second {display: none;}
+
 
 
 
